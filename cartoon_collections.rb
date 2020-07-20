@@ -5,7 +5,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  summon_captain_planet.collect { |x| 
+  summon_captain_planet.collect { |x| x.uppercase
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
