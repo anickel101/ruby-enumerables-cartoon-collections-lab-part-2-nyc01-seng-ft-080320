@@ -1,18 +1,10 @@
 def square_array(array)
   array.map { |x| x*x}
-  # Use an Enumerable to square every element in the passed in array
-  # Return a new array of the results
 end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect { |x| x.capitalize + "!"}
-  # Use an Enumerable to capitalize and add '!' to every element in the passed in array
-  # Return a new array of the results
 end
-
-test_array = ["anson", "reva", "archie"]
-
-summon_captain_planet(test_array)
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
