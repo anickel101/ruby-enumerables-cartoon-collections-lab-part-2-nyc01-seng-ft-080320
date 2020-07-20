@@ -10,6 +10,10 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
 end
 
+test_array = ["anson", "reva", "archie"]
+
+summon_captain_planet
+
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
